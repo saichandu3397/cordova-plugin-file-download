@@ -1,0 +1,17 @@
+{
+    "name": "cordova-plugin-file-download",
+    "version": "1.0.0",
+    "description": "File downloader plugin",
+    "cordova": {
+      "id": "cordova-plugin-file-download",
+      "platforms": [
+        "android"
+      ]
+    },
+    "keywords": [
+      "ecosystem:cordova"
+    ],
+    "author": "Sai Chandu",
+    
+    "license": "ISC"
+  }
