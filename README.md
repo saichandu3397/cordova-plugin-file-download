@@ -1,6 +1,5 @@
  Downloader Cordova plugin 
 
-
 This plugin is designed to support downloading files 
 
 In Android
@@ -15,13 +14,14 @@ using NSDocumentDirectory where users can access the file
 
 this plugin is extension support for the ios
 
-Luka313/integrator-cordova-plugin-downloader plugin 
+[Luka313/integrator-cordova-plugin-downloader plugin]([Luka313/integrator-cordova-plugin-downloader plugin](https://github.com/Luka313/integrator-cordova-plugin-downloader) 
+ 
 
 
 Usage
 Create download request. For more info on parameter use refer to DownloadRequest.
 
-var request = {
+let request = {
 	//Location of the resource to download
 	uri: '',
 	//fileName
@@ -52,5 +52,8 @@ Starts download and returns location uri on completion
 cordova.plugins.Download.download(request,
 		(location) => { alert('File is downloaded at' + location) },
 		(err) => { alert(err)})
+		
+		
+		
 Credits and License
-Based on Luka313/integrator-cordova-plugin-downloader plugin 
+Based on [Luka313/integrator-cordova-plugin-downloader plugin](https://github.com/Luka313/integrator-cordova-plugin-downloader) 
