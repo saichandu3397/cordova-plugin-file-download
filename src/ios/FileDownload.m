@@ -18,7 +18,7 @@
     
     NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
 
-    __block NSURLSessionDownloadTask task = [session downloadTaskWithRequest:request completionHandler : ^(NSURL*   responseUrl, NSURLResponse*  response, NSError*  error){
+    __block NSURLSessionDownloadTask* task = [session downloadTaskWithRequest:request completionHandler : ^(NSURL*   responseUrl, NSURLResponse*  response, NSError*  error){
         if (error != nil)
         {
             CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
